@@ -1,0 +1,25 @@
+# 비밀값·개인 데이터가 실수로 올라가지 않도록
+.env
+.env.*
+*.db
+*.sqlite
+*.sqlite3
+*-backup-*.json
+diary-backup-*.json
+serviceAccount*.json
+*service-account*.json
+*-firebase-adminsdk-*.json
+*.pem
+*.key
+
+# Firebase CLI / 도구
+.firebase/
+firebase-debug.log
+firestore-debug.log
+.firebaserc.local
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
