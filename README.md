@@ -22,7 +22,7 @@ SECURITY.md           보안·개인정보 점검 결과
 
 ## Firebase 설정 순서 (처음 한 번)
 
-1. https://console.firebase.google.com 에서 **프로젝트 추가** (Google 애널리틱스는 꺼도 됩니다)
+1. https://console.firebase.google.com 에서 **프로젝트 추가** (현재 프로젝트: `webapp-hub-abcc0`, Firestore 위치: 서울)
 2. **빌드 → Authentication → 시작하기 → 로그인 방법 → Google** 사용 설정
 3. **빌드 → Firestore Database → 데이터베이스 만들기**
    - 위치: `asia-northeast3 (서울)` 권장, **프로덕션 모드**로 시작
